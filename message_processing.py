@@ -23,7 +23,8 @@ def log_adjustments():
           "Pausing application \n")
     f.write("adjustment record is: %s\n "
     %adjustment_record)
-    time.sleep(2)
+    #pausing for 10 seconds
+    time.sleep(10)
     f.close()
 
 
